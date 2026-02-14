@@ -91,6 +91,10 @@ docker run -p 8000:8000 diabetes-prediction-model
 kubectl apply -f diabetes-prediction-model-deployment.yaml
 ```
 
+## port forward
+kubectl port-forward svc/diabetes-api-service 2222:80 --address=0.0.0.0
+
+
 🙌 Credits
 
 Created by `ABHISHEK VEERAMALLA`
